@@ -110,12 +110,52 @@ section h2 {
 }
 
 .p {
-    border: 10px solid #101820;
+    border: 7px solid #101820;
     padding: 40px;
     flex: 1 1 calc(20% - 20px);
     box-sizing: border-box;
     text-align: center;
     margin: 0;
+}
+
+.tooltip { /* Written by ChatGPT-4o. Edited by AUC. */
+
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext { /* Written by ChatGPT-4o. Edited by AUC. */
+    visibility: hidden;
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 105%;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after { /* Written by ChatGPT-4o. Edited by AUC. */
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    right: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #555 transparent;
+}
+
+.tooltip:focus .tooltiptext,
+.tooltip:hover .tooltiptext { /* Written by ChatGPT-4o. Edited by AUC. */
+    visibility: visible;
+    opacity: 1;
 }
 
 .footer1 {
