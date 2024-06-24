@@ -53,7 +53,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-
 main {
     padding: 50px;
     max-width: 600px;
@@ -68,8 +67,24 @@ main {
     box-shadow: none;
 }
 
+main a:visited {
+    color: #9300e8;
+}
+main a:hover {
+    color: red;
+}
+
 section h2 {
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: #ff0000;
+    text-decoration: none;
 }
 
 .social-icon {
