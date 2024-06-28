@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:  #fffdd0;
+}
+
+header {
+    background: #101820;
+    color: #FEE715;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center; 
+    letter-spacing: 0.5px;
+    word-spacing: 0.2px;
+    font-size: 18px;
+}
+
+nav {
+    display: inline-flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #FEE715;
+    text-decoration: none;
+    transition: color 0.15s;
+}
+
+nav ul li a:hover {
+    color: red
+}
+
+main {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+    background-color: transparent; 
+    color: inherit;
+}
+
+main a {
+    transition: color 0.15s;
+}
+
+main a:visited {
+    color: #9300e8;
+}
+main a:hover {
+    color: red;
+}
+
+section h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: #ff0000;
+    text-decoration: none;
+    opacity: 0.4
+}
+
+.blog {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 600px;
+
+}
+.blog-post {
+    text-align: justify;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blog-post p {
+    font-size: 14px;
+}
+
+.blog-post h3 {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.blog-post ul li a {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.blog-post ul li {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.post-date {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    margin: 0;
+    line-height: 0;
+    border-bottom: 5px solid #101820;
+    padding-bottom: 35px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.tooltip { /* Written by ChatGPT-4o. Edited by AUC. */
+
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext { /* Written by ChatGPT-4o. Edited by AUC. */
+    visibility: hidden;
+    width: 200px;
+    background-color: #101820;
+    color: #FFF;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 105%;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.tooltip .tooltiptext::after { /* Written by ChatGPT-4o. Edited by AUC. */
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    right: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #101820 transparent;
+}
+
+.tooltip:focus .tooltiptext,
+.tooltip:hover .tooltiptext { /* Written by ChatGPT-4o. Edited by AUC. */
+    visibility: visible;
+    opacity: 1;
+}
+
+.footer {
+    background: #101820;
+    color: #FEE715;
+    text-align: center;
+    padding: 5px 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: min-content;
+    font-size: 12px;
+}

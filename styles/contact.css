@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:  #fffdd0;
+}
+
+header {
+    background: #101820;
+    color: #FEE715;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center; 
+    letter-spacing: 0.5px;
+    word-spacing: 0.2px;
+    font-size: 18px;
+}
+
+nav {
+    display: inline-flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #FEE715;
+    text-decoration: none;
+    transition: color 0.15s;
+}
+
+nav ul li a:hover {
+    color: red
+}
+
+main {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+    background-color: transparent; 
+    color: inherit;
+}
+
+main a {
+    transition: color 0.15s;
+}
+
+main a:visited {
+    color: #9300e8;
+}
+main a:hover {
+    color: red;
+}
+
+section h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: #ff0000;
+    text-decoration: none;
+    opacity: 0.4
+}
+
+.social-icon {
+    font-size: 32px;
+    color: #101820;
+    display: inline-flex;
+    text-align: center;
+}
+
+.footer {
+    background: #101820;
+    color: #FEE715;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: min-content;
+    font-size: 12px;
+}
