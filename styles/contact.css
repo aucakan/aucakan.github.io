@@ -12,7 +12,6 @@ body {
     background-attachment: fixed;
 }
 
-
 header {
     background: #101820;
     color: #FEE715;
@@ -29,14 +28,6 @@ header h1 {
     letter-spacing: 0.5px;
     word-spacing: 0.2px;
     font-size: 18px;
-}
-
-.content {
-    width: 100%;
-    max-width: 400px;
-    background-color: #fff;
-    padding: 40px;
-    margin: 0
 }
 
 nav {

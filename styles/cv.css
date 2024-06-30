@@ -75,6 +75,7 @@ main {
 
 main a {
     transition: color 0.15s;
+    font-weight: 700;
 }
 
 main a:visited {
