@@ -8,7 +8,8 @@ body {
     padding: 0;
     background-color:  #fff;
     background-image: url(https://math.mit.edu/dist/images/geo-background.jpg);
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
