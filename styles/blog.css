@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Titillium Web';
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color:  #fffdd0;
+    background-color:  #fff;
+    background-image: url(https://math.mit.edu/dist/images/geo-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
@@ -17,6 +20,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 25px;
 }
 
 header h1 {
@@ -66,8 +70,8 @@ main {
     padding-left: 50px;
     padding-right: 50px;
     margin: 0 auto;
-    background-color: transparent; 
-    color: inherit;
+    max-width: 700px;
+    background-color: #FFF;
 }
 
 main a {
@@ -83,6 +87,11 @@ main a:hover {
 
 section h2 {
     text-align: center;
+    font-size: 27px;
+}
+
+section h4 {
+    font-size: 18px;
 }
 
 a {
@@ -100,18 +109,17 @@ a:active {
     justify-content: center;
     flex-direction: column;
     max-width: 600px;
-
 }
 .blog-post {
     text-align: justify;
-    padding-top: 30px;
+    padding-top: 15px;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
 .blog-post p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .blog-post h3 {
@@ -120,13 +128,13 @@ a:active {
 }
 
 .blog-post ul li a {
-    font-size: 14px;
+    font-size: 15px;
     font-style: italic;
     font-weight: bold;
 }
 
 .blog-post ul li {
-    font-size: 14px;
+    font-size: 15px;
     font-style: italic;
 }
 
@@ -193,4 +201,10 @@ a:active {
     width: 100%;
     height: min-content;
     font-size: 12px;
+    margin-top: 25px;
+}
+
+.footer p {
+    margin-right: 40px;
+    margin-left: 40px;
 }

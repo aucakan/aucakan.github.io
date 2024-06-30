@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Titillium Web';
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color:  #fffdd0;
+    background-color:  #fff;
+    background-image: url(https://math.mit.edu/dist/images/geo-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
@@ -115,4 +118,9 @@ a:active {
     width: 100%;
     height: min-content;
     font-size: 12px;
+}
+
+.footer p {
+    margin-right: 40px;
+    margin-left: 40px;
 }

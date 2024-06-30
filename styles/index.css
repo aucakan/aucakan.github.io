@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Titillium Web';
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color:  #fffdd0;
+    background-color:  #fff;
+    background-image: url(https://math.mit.edu/dist/images/geo-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
@@ -17,6 +20,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 25px;
 }
 
 header h1 {
@@ -60,21 +64,17 @@ nav ul li a:hover {
 
 main {
     padding: 50px;
-    padding-bottom: 100px;
     display: flex;
     justify-content: center;
     text-align: justify;
     max-width: 600px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin: 0 auto;
-    background-color: transparent; 
-    color: inherit;
+    margin: 0px auto;
+    background-color: #fff; 
 }
 
 main a {
     transition: color 0.15s;    
-    font-weight: 510;
+    font-weight: 700;
     
 }
 
@@ -103,10 +103,16 @@ a:active {
     background: #101820;
     color: #FEE715;
     text-align: center;
+    font-size: 18px;
     padding: 5px 0;
     position: fixed;
     bottom: 0px;
     width: 100%;
     height: min-content;
     font-size: 12px;
+}
+
+.footer p {
+    margin-right: 40px;
+    margin-left: 40px;
 }
